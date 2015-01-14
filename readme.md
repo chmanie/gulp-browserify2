@@ -43,7 +43,7 @@ Mutliple entry points:
 
 ```javascript
 gulp.src(['/js/index.js', '/js/index2.js'])
-  .pipe(browserify()
+  .pipe(browserify())
   .pipe(gulp.dest('dist/js/'));
 
 ```
