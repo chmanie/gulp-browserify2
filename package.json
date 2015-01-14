@@ -18,9 +18,9 @@
   "author": "Christian Maniewski <chmanie@fastmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chmanie/gulp-browserify-6to5/issues"
+    "url": "https://github.com/chmanie/gulp-browserify2/issues"
   },
-  "homepage": "https://github.com/chmanie/gulp-browserify-6to5",
+  "homepage": "https://github.com/chmanie/gulp-browserify2",
   "dependencies": {
     "browserify": "^8.1.0",
     "deepmerge": "^0.2.7",
