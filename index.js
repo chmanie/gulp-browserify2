@@ -9,9 +9,7 @@ var merge = require('deepmerge');
 var defaults = {
   fileName: 'bundle.js',
   transform: [],
-  options: {
-    debug: true
-  }
+  options: {}
 };
 
 function gulpBrowserify(options) {
@@ -41,6 +39,7 @@ function gulpBrowserify(options) {
 
     var bundler = browserify(browserifyOpts);
 
+    // handle transform plugins
     if(!Array.isArray(config.transform)) config.transform = [config.transform];
     if (config.transform.length) {
       config.transform.forEach(function (transform) {
